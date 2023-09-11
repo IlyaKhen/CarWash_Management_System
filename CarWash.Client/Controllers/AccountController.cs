@@ -12,7 +12,7 @@ namespace CarWash.Client.Controllers
 
         public IActionResult Login()
         {
-            using var unitOfWork = new UnitOfWork();                
+            //using var unitOfWork = new UnitOfWork();                
             return RedirectToAction("Index", "Home");
         }
 
