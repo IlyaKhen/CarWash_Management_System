@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CarWash.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Mvc;
+using CarWash.Data;
 
 namespace CarWash.Client.Controllers
 {
@@ -12,6 +14,7 @@ namespace CarWash.Client.Controllers
         public string Login(string login, string password)
         {
             //return View();
+            //using var unitOfWork = new UnitOfWork(new DbContextClass());
             return "Login";
         }
 
