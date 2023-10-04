@@ -1,19 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarWash.DataAccessLayer.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CarWash.Infrastructure.Interfaces;
-using CarWash.Data;
 
-namespace CarWash.Infrastructure.Repositories
+namespace CarWash.DataAccessLayer.Repositories
 {
     public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        protected readonly DbContextClass _dbContext;
+        protected readonly ApplicationDbContext _dbContext;
 
-        protected GenericRepository(DbContextClass dbContext)
+        protected GenericRepository(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }

@@ -4,15 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CarWash.Infrastructure.Interfaces;
-using CarWash.Data.Models;
-using CarWash.Data;
+using CarWash.BL.Models;
+using CarWash.DataAccessLayer.Interfaces;
 
-namespace CarWash.Infrastructure.Repositories
+namespace CarWash.DataAccessLayer.Repositories
 {
     public class UserRepository : GenericRepository<User>, IUserRepository
     {
-        public UserRepository(DbContextClass dbContex) : base(dbContex)
+        public UserRepository(ApplicationDbContext dbContex) : base(dbContex)
         {
 
         }

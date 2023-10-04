@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarWash.Infrastructure.Interfaces
+namespace CarWash.DataAccessLayer.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

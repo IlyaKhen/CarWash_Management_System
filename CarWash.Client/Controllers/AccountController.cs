@@ -1,5 +1,4 @@
-﻿using CarWash.Infrastructure.Repositories;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace CarWash.Client.Controllers
 {

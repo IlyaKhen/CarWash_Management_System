@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWash.Infrastructure", "CarWash.Infrastructure\CarWash.Infrastructure.csproj", "{B81B52B2-02AB-4A4A-9442-3FB45C4D2815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWash.BL", "CarWash.Infrastructure\CarWash.BL.csproj", "{B81B52B2-02AB-4A4A-9442-3FB45C4D2815}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWash.Data", "CarWash.Data\CarWash.Data.csproj", "{71C08705-49B0-4512-BCB8-A43588599EB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWash.DataAccessLayer", "CarWash.Data\CarWash.DataAccessLayer.csproj", "{71C08705-49B0-4512-BCB8-A43588599EB9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWash.Api", "CarWash.Api\CarWash.Api.csproj", "{BC94F12B-02A5-46DF-928B-E3CD3D704CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWash.Client", "CarWash.Client\CarWash.Client.csproj", "{9F1FB63E-1CFF-4FC5-BBCE-517F90220581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWash.Client", "CarWash.Client\CarWash.Client.csproj", "{9F1FB63E-1CFF-4FC5-BBCE-517F90220581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

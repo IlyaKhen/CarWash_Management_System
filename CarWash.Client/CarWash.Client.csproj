@@ -15,9 +15,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CarWash.Data\CarWash.Data.csproj" />
-    <ProjectReference Include="..\CarWash.Infrastructure\CarWash.Infrastructure.csproj" />
-  </ItemGroup>
-
 </Project>

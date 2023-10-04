@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarWash.Data.Models
+namespace CarWash.BL.Models
 {
     public class Account
     {

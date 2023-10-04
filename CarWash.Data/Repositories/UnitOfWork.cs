@@ -1,20 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarWash.DataAccessLayer.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CarWash.Infrastructure.Interfaces;
-using CarWash.Data;
 
-namespace CarWash.Infrastructure.Repositories
+namespace CarWash.DataAccessLayer.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly DbContextClass _dbContext;
+        private readonly ApplicationDbContext _dbContext;
         public IUserRepository Users { get; }
 
-        public UnitOfWork(DbContextClass dbContext, IUserRepository userRepository)
+        public UnitOfWork(ApplicationDbContext dbContext, IUserRepository userRepository)
         {
             _dbContext = dbContext;
             Users = userRepository;
